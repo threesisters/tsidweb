@@ -1,0 +1,110 @@
+﻿body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#ececec;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+h1
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 22px;
+}
+h2
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 20px;
+}
+h3
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 18px;
+}
+p dl dt dd
+{
+    color:#001F5C;
+}
+
+#top-bar
+{
+    clear:both;
+    float:left;
+    width:100%;
+    min-width:600px;
+    background-color:#4D70B8;/**/
+    color:rgb(217,255,255);
+    height:125px;
+    /*border-top-left-radius:20px;
+    border-top-right-radius:20px;*/
+}
+#logo
+{
+    position:fixed;
+    top:-16px;
+}
+#issue
+{
+    height:30px;
+    width:160px;
+    position:absolute;/**/
+    top:95px;
+    right:0;
+    font-family:Arial;
+    font-size:22px;
+    font-weight:bold;
+    color:#DBE2F1;
+}
+#container2
+{
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    background-color:#DBE2F1;
+}
+#container1
+{
+    float:left;
+    position:relative;
+    width:100%;
+    right:75%;
+    background-color:#B8C6E3;
+}
+#col1
+{
+    float:left;
+    width:21%;
+    position:relative;
+    overflow:hidden;
+    left:77%;
+}
+#col2
+{
+     float:left;
+     position:relative;
+     overflow:hidden;
+     width:71%;
+     left:82%;
+}
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+

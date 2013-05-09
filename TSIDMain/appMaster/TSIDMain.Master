@@ -1,0 +1,49 @@
+<%@ Master Language="C#" AutoEventWireup="false" Inherits="System.Web.UI.MasterPage" %>
+<%@ Register src="../appControls/MainMenu.ascx" tagname="MainMenu" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <link href="/appCSS/master.css" rel="stylesheet" type="text/css" />
+   <link href="/appCSS/menucss.css" rel="stylesheet" type="text/css" />
+   <link href="/appCSS/pageContent.css" rel="stylesheet" type="text/css" />
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+   <title>Three Sisters Irrigation District</title>
+   <asp:ContentPlaceHolder ID="head" runat="server">
+   </asp:ContentPlaceHolder>
+   <!--[if lt IE 8]>
+   <style type="text/css" media="screen">
+   body {
+   behavior: url(/appMaster/csshover3.htc);
+   font-size: 100%;
+   }
+
+   #menu ul li {float: left; width: 100%;}
+   #menu ul li a {height: 1%;} 
+   
+   #menu h2 {
+   font: bold .8em/1em arial, helvetica, sans-serif;
+   }
+   </style>
+   <![endif]-->
+</head>
+<body>
+   <div id="mainContainer">
+      <div id="hdrDiv">
+         <%--<img src="/appPhotos/heroPlaceholder.jpg" alt="View of the Cascades from Watson Pond" />--%>
+         <img src="../appPhotos/hero.3sisters.jpg" alt="Three Sisters Mountains in Oregon" />
+      </div>
+      <a href="/Default.aspx">
+      <img id="logo" src="/appGraphics/logo1.png" alt="Three Sisters Irrigation District logo" /></a>
+      <uc1:MainMenu ID="ctlMenu" runat="server" />
+      <div id="mainContent">
+         <asp:ContentPlaceHolder ID="cphMainContent" runat="server">
+         </asp:ContentPlaceHolder>
+      </div>
+      <!--mainContent-->
+      <div id="footer">
+      </div>
+   </div>
+   <!--mainContainer-->
+</body>
+</html>

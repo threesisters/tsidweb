@@ -1,0 +1,89 @@
+#mainContent p, #mainContent div, #mainContent td, #mainContent span, #mainContent ul
+{
+   font-family: arial;
+   color: #153669;
+   font-size: 12px;
+   line-height: 15px;
+}
+#mainContent h1
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 22px;
+}
+#mainContent h2
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 20px;
+}
+#mainContent h3
+{
+   font-family: arial;
+   /*color: #295e94;*/
+   color:#8E3C2C;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 18px;
+}
+#mainContent ul
+{
+   list-style-type:none;
+}
+#mainContent ul a
+{
+   color:#2B6897;
+}
+#mainContent a
+{
+   color: #3b8bc8;
+   text-decoration: none;
+}
+#mainContent a.AlbumTitle
+{
+    font-family:Arial;
+    font-weight:bold;
+    color:#8E3C2C;
+}
+#mainContent a:hover
+{
+   text-decoration: underline;
+}
+/*#mainContent a:visited
+{
+   color: #3b8bc8;
+}*/
+#mainContent p.ques
+{
+    margin:0px 0px 5px;
+}
+#mainContent p.ans
+{
+    margin:0px 0px 15px;
+}
+#mainContent span.qa
+{
+    font-variant:small-caps;
+    font-weight:bold;
+    font-size:14px;
+    color:#8E3C2C;
+}
+
+.sideImg
+{
+   background-color: white;
+   padding: 4px;
+   border: 1px #295e94 solid;
+   width: 200px;
+   height: 133px;
+   display: inline;
+   float: left;
+   margin-right: 15px;
+}
+
