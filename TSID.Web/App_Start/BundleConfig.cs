@@ -17,13 +17,16 @@ namespace TSID.Web
             bundles.Add(
                 new ScriptBundle("~/scripts/vendor")
                 .Include("~/scripts/jquery-{version}.min.js")
-                .Include("~/scripts/bootstrap.min.js"));
+                .Include("~/scripts/bootstrap.min.js")
+                .Include("~/scripts/knockout-{version}.js")
+                .Include("~/scripts/sammy-{version}.js"));
 
             bundles.Add(
                 new StyleBundle("~/Content/css")
                 .Include("~/Content/bootstrap.min.css")
                 .Include("~/Content/bootstrap-responsive.min.css")
                 .Include("~/Content/font-awesome.min.css")
+                .Include("~/Content/durandal.css")
                 .Include("~/Content/styles.css"));
 
         }
