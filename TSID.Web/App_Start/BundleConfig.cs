@@ -27,7 +27,8 @@ namespace TSID.Web
                 .Include("~/Content/bootstrap-responsive.min.css")
                 .Include("~/Content/font-awesome.min.css")
                 .Include("~/Content/durandal.css")
-                .Include("~/Content/styles.css"));
+                .Include("~/Content/styles.css")
+                .Include("~/Content/tsid.css"));
 
         }
 

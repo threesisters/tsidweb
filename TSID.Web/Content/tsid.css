@@ -1,0 +1,16 @@
+﻿body {
+    background-image: url(/Content/images/background.jpg);
+    background-repeat: no-repeat;
+    background-color: #a5bbd2;
+}
+
+#logo {
+    border-style: none;
+    margin-top: -16%;
+    margin-left: 5%;
+    width: 32%
+}
+
+#hero {
+    line-height: 0;
+}

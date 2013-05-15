@@ -104,8 +104,11 @@
     <Content Include="Content\font\fontawesome-webfont.ttf" />
     <Content Include="Content\font\fontawesome-webfont.eot" />
     <Content Include="Content\font\FontAwesome.otf" />
+    <Content Include="Content\images\background.jpg" />
     <Content Include="Content\images\hero.3Sisters.jpg" />
+    <Content Include="Content\images\tsidlogo.png" />
     <Content Include="Content\styles.css" />
+    <Content Include="Content\tsid.css" />
     <Content Include="Global.asax" />
     <Content Include="Index.cshtml" />
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
