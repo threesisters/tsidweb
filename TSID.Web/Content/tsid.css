@@ -8,9 +8,40 @@
     border-style: none;
     margin-top: -16%;
     margin-left: 5%;
-    width: 32%
+    width: 32%;
 }
 
 #hero {
     line-height: 0;
 }
+
+#content {
+    background-color: #d0c4b8;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+
+#mainMenu {
+    color: #35537f;
+    background-color: #cfe1f3;
+}
+
+/*Bootstrap navbar overrides*/
+.navbar {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.navbar.navbar-inner, .navbar.btn-navbar {
+    background-image: none;
+    background-color: #cfe1f3;
+}
+
+.navbar .nav > li > a {
+    color: #35537f;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background-color: #cfe1f3;
+    color: #8E3C2C;
+    }
