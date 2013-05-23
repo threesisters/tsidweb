@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Web.Optimization;
+using BundleTransformer.Core.Bundles;
+using BundleTransformer.Core.Orderers;
 
 namespace TSID.Web
 {
@@ -9,6 +11,8 @@ namespace TSID.Web
         {
             bundles.IgnoreList.Clear();
             AddDefaultIgnorePatterns(bundles.IgnoreList);
+
+            var nullOrderer = new NullOrderer();
 
             bundles.Add(
                 new ScriptBundle("~/scripts/modernizr")
@@ -21,14 +25,14 @@ namespace TSID.Web
                 .Include("~/scripts/knockout-{version}.js")
                 .Include("~/scripts/sammy-{version}.js"));
 
-            bundles.Add(
-                new StyleBundle("~/Content/css")
-                .Include("~/Content/bootstrap.min.css")
-                .Include("~/Content/bootstrap-responsive.min.css")
-                .Include("~/Content/font-awesome.min.css")
-                .Include("~/Content/durandal.css")
-                //.Include("~/Content/styles.css")
-                .Include("~/Content/tsid.css"));
+            //Custom style bundle uses cssTransformer to process less files
+            var stylesBundle = new CustomStyleBundle("~/Content/css");
+            stylesBundle.Include("~/Content/bootstrap-override.less",
+                "~/Content/font-awesome.min.css",
+                "~/Content/durandal.css",
+                "~/Content/tsid.css");
+            stylesBundle.Orderer = nullOrderer;
+            bundles.Add(stylesBundle);
 
         }
 

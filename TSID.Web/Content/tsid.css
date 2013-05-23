@@ -27,10 +27,7 @@
 }
 
 /*Bootstrap navbar overrides*/
-.navbar {
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
+
 
 .navbar.navbar-inner, .navbar.btn-navbar {
     background-image: none;
