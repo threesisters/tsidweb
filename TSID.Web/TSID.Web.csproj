@@ -102,11 +102,11 @@
     <Content Include="App\durandal\viewModel.js" />
     <Content Include="App\durandal\viewModelBinder.js" />
     <Content Include="App\durandal\widget.js" />
-    <Content Include="App\Home.html" />
-    <Content Include="App\home.js" />
+    <Content Include="App\views\home.html" />
+    <Content Include="App\viewmodels\home.js" />
     <Content Include="App\main.js" />
-    <Content Include="App\shell.html" />
-    <Content Include="App\shell.js" />
+    <Content Include="App\views\shell.html" />
+    <Content Include="App\viewmodels\shell.js" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -121,6 +121,7 @@
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Content\images\hero.3Sisters.jpg" />
+    <Content Include="Content\images\home.welder.jpg" />
     <Content Include="Content\images\tsidlogo.png" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\tsid.css" />
@@ -173,6 +174,7 @@
     <Content Include="Content\bootstrap\Copy of variables.less" />
     <Content Include="Content\variables.less" />
     <Content Include="Content\bootstrap-override.less" />
+    <Content Include="Content\tsid.less" />
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
     <Content Include="Content\font-awesome-ie7.min.css" />
     <Content Include="Content\font-awesome.css" />

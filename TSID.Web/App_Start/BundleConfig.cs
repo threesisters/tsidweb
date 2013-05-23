@@ -25,12 +25,12 @@ namespace TSID.Web
                 .Include("~/scripts/knockout-{version}.js")
                 .Include("~/scripts/sammy-{version}.js"));
 
-            //Custom style bundle uses cssTransformer to process less files
+            //CustomStyleBundle uses cssTransformer to process less files
             var stylesBundle = new CustomStyleBundle("~/Content/css");
             stylesBundle.Include("~/Content/bootstrap-override.less",
                 "~/Content/font-awesome.min.css",
                 "~/Content/durandal.css",
-                "~/Content/tsid.css");
+                "~/Content/tsid.less");
             stylesBundle.Orderer = nullOrderer;
             bundles.Add(stylesBundle);
 

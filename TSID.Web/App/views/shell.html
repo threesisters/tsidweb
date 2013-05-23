@@ -4,7 +4,7 @@
             <div id="hero" class="span12">
                 <img src="/Content/images/hero.3sisters.jpg" 
                      alt="Three Sisters Mountains in Oregon"/>
-                <img id="logo" src="/Content/images/tsidlogo.png" />
+                <a href="#"><img id="logo" src="/Content/images/tsidlogo.png" /></a>
             </div>
         </div>    
     </header>
@@ -21,8 +21,10 @@
         </div>
         <!--<div class="navbar-inner navbar-secondary"></div>-->
     </nav>
-    <section id="content" class="main container-fluid">
-        <!--ko compose: {model: 'home', activate: true} -->
+    <section id="mainContent" class="main container-fluid">
+        <!--ko compose: {model: router.activeItem,
+            afterCompose: router.afterCompose,
+            transition: 'entrance'} -->
         <!--/ko-->
     </section>
 </div>

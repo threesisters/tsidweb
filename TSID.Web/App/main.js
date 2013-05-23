@@ -4,12 +4,18 @@
 
 define(function (require) {
     var system = require('durandal/system'),
-    app = require('durandal/app');
+    app = require('durandal/app'),
+    router = require('durandal/plugins/router'),
+    viewLocater = require('durandal/viewLocator');
     app.title = 'Three Sisters Irrigation District';
 
     system.debug(true);
     app.start().then(function () {
-        app.setRoot('shell');
+        router.mapAuto();
+        router.useConvention();
+        router.mapNav('home');
+        viewLocater.useConvention();
+        app.setRoot('viewmodels/shell');
     });
 
 });

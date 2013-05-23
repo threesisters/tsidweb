@@ -55,7 +55,7 @@
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
-@headingsColor:         inherit; // empty to use BS default, @textColor
+@headingsColor:         #8E3C2C; //inherit (empty to use BS default, @textColor)
 
 
 // Component sizing
@@ -180,14 +180,14 @@
 @navbarCollapseWidth:             979px;
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
-@navbarHeight:                    40px;
-@navbarBackgroundHighlight:       #ffffff;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBorder:                    darken(@navbarBackground, 12%);
+@navbarHeight:                    30px;
+@navbarBackground:                #cfe1f3; //darken(@navbarBackgroundHighlight, 5%);
+@navbarBackgroundHighlight:       lighten(@navbarBackground, 10%);
+@navbarBorder:                    #d0c4b8; //darken(@navbarBackground, 12%);
 
-@navbarText:                      #777;
-@navbarLinkColor:                 #777;
-@navbarLinkColorHover:            @grayDark;
+@navbarText:                      #35537f;
+@navbarLinkColor:                 #35537f;
+@navbarLinkColorHover:            #75251B;
 @navbarLinkColorActive:           @gray;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
