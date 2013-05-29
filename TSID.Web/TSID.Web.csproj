@@ -104,6 +104,8 @@
     <Content Include="App\durandal\viewModelBinder.js" />
     <Content Include="App\durandal\widget.js" />
     <Content Include="App\viewmodels\History-How-We-Began.js" />
+    <Content Include="App\viewmodels\History-Middle-Years.js" />
+    <Content Include="App\views\History-Middle-Years.html" />
     <Content Include="App\views\home.html" />
     <Content Include="App\viewmodels\home.js" />
     <Content Include="App\main.js" />
@@ -126,8 +128,6 @@
     <Content Include="Content\images\hero.3Sisters.jpg" />
     <Content Include="Content\images\home.welder.jpg" />
     <Content Include="Content\images\tsidlogo.png" />
-    <Content Include="Content\styles.css" />
-    <Content Include="Content\tsid.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\1915MapofSCID.jpg" />
     <Content Include="Index.cshtml" />
