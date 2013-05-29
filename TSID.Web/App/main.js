@@ -13,7 +13,6 @@ define(function (require) {
     app.start().then(function () {
         router.mapAuto();
         router.useConvention();
-        router.mapNav('home');
         viewLocater.useConvention();
         app.setRoot('viewmodels/shell');
     });

@@ -97,14 +97,17 @@
     <Content Include="App\durandal\modalDialog.js" />
     <Content Include="App\durandal\plugins\router.js" />
     <Content Include="App\durandal\system.js" />
+    <Content Include="App\durandal\transitions\entrance.js" />
     <Content Include="App\durandal\viewEngine.js" />
     <Content Include="App\durandal\viewLocator.js" />
     <Content Include="App\durandal\viewModel.js" />
     <Content Include="App\durandal\viewModelBinder.js" />
     <Content Include="App\durandal\widget.js" />
+    <Content Include="App\viewmodels\History-How-We-Began.js" />
     <Content Include="App\views\home.html" />
     <Content Include="App\viewmodels\home.js" />
     <Content Include="App\main.js" />
+    <Content Include="App\views\History-How-We-Began.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="Content\bootstrap-responsive.css" />
@@ -126,6 +129,7 @@
     <Content Include="Content\styles.css" />
     <Content Include="Content\tsid.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\1915MapofSCID.jpg" />
     <Content Include="Index.cshtml" />
     <None Include="BundleTransformer.Configuration.xsd">
       <SubType>Designer</SubType>
@@ -175,6 +179,19 @@
     <Content Include="Content\variables.less" />
     <Content Include="Content\bootstrap-override.less" />
     <Content Include="Content\tsid.less" />
+    <Content Include="Docs\History\1911SquawCreekAdjudicationDecree.pdf" />
+    <Content Include="Docs\History\1914SquawCreekAdjudicationDecree.pdf" />
+    <Content Include="Docs\History\1916OrderCreatingSCID.pdf" />
+    <Content Include="Docs\History\1918.04.02 Minutes.pdf" />
+    <Content Include="Docs\History\2009 Stuemke Report.pdf" />
+    <Content Include="Docs\History\SCIC1891ArticlesofIncorporation.pdf" />
+    <Content Include="Docs\History\SCIC1895ArticlesofIncorporation.pdf" />
+    <Content Include="Docs\History\SCIC1897CanalFieldNotes.pdf" />
+    <Content Include="Docs\History\SCICCareyActApplication1905.pdf" />
+    <Content Include="Docs\History\SCICCareyActCanalSurvey1905.pdf" />
+    <Content Include="Docs\History\SCICNoticetoDivertWater.pdf" />
+    <Content Include="Docs\History\SpecialAgentBurt1915Report.pdf" />
+    <Content Include="Docs\History\SpecialAgentBurt1924Report.pdf" />
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
     <Content Include="Content\font-awesome-ie7.min.css" />
     <Content Include="Content\font-awesome.css" />

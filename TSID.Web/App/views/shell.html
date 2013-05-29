@@ -2,16 +2,26 @@
     <header>
         <div class="row-fluid">
             <div id="hero" class="span12">
-                <img src="/Content/images/hero.3sisters.jpg" 
-                     alt="Three Sisters Mountains in Oregon"/>
-                <a href="#"><img id="logo" src="/Content/images/tsidlogo.png" /></a>
+                <img src="/Content/images/hero.3sisters.jpg"
+                    alt="Three Sisters Mountains in Oregon" />
+                <a href="#/home">
+                    <img id="logo" src="/Content/images/tsidlogo.png" /></a>
             </div>
-        </div>    
+        </div>
     </header>
     <nav id="mainMenu" class="navbar">
         <div class="navbar-inner">
             <ul class="nav">
-                <li><a href="#">History</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">History
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#/History-How-We-Began">How We Began</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Documents</a></li>
