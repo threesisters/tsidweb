@@ -11,22 +11,22 @@ define(function (require) {
 
     system.debug(true);
     app.start().then(function () {
-        animateMenu();
         router.mapAuto();
-        router.useConvention();
+        //router.useConvention();
         viewLocater.useConvention();
         app.setRoot('viewmodels/shell');
+        animateMenu();
     });
     
     function animateMenu() {
-        $(document).ready(function () {
-            $('ul.dropdown-menu>li>a').each(function () {
+        //$(document).ready(function () {
+            $('ul.dropdown-menu li a').each(function () {
                 $(this).on("click", function () {
                     $('li.dropdown').each(function () {
                         $(this).removeClass('open');
                     });
                 });
             });
-        });
+        //});
     }
 });

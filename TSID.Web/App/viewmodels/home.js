@@ -1,7 +1,10 @@
 ﻿define(['durandal/app'],
     function (app) {
         var content = {
-            activate: activate
+            activate: activate,
+            title: 'Home',
+            name: 'Home',
+            caption: 'Home'
         };
         return content;
 
