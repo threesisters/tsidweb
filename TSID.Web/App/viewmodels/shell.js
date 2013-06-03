@@ -8,12 +8,12 @@
 
         function activate() {
             router.mapAuto();
-            animateMenu();
+            collapseMenu();
             return router.activate('home');
             //system.getModuleId('viewmodels/home');
         }
         
-        function animateMenu() {
+        function collapseMenu() {
             //$(document).ready(function () {
             $('ul.dropdown-menu li a').each(function () {
                 $(this).on("click", function () {

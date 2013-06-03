@@ -15,10 +15,10 @@ define(function (require) {
         //router.useConvention();
         viewLocater.useConvention();
         app.setRoot('viewmodels/shell');
-        animateMenu();
+        collapseMenu();
     });
     
-    function animateMenu() {
+    function collapseMenu() {
         //$(document).ready(function () {
             $('ul.dropdown-menu li a').each(function () {
                 $(this).on("click", function () {
