@@ -7,11 +7,13 @@
     }, {
         url: 'how-we-began',
         moduleId: 'viewmodels/how-we-began',
-        name: 'How-We-Began'
+        name: 'How-We-Began',
+        visible: true
     }, {
         url: 'middle-years',
         moduleId: 'viewmodels/middle-years',
-        name: 'The Middle Years'
+        name: 'The Middle Years',
+        visible: true
     }];
 
     return {
