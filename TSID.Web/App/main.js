@@ -11,8 +11,8 @@ define(function (require) {
 
     system.debug(true);
     app.start().then(function () {
-        router.mapAuto();
-        //router.useConvention();
+        //router.mapAuto();
+        router.useConvention();
         viewLocater.useConvention();
         app.setRoot('viewmodels/shell');
         collapseMenu();

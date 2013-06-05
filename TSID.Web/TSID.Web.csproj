@@ -83,6 +83,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\config.js" />
     <Content Include="App\durandal\amd\almond-custom.js" />
     <Content Include="App\durandal\amd\optimizer.exe" />
     <Content Include="App\durandal\amd\r.js" />
@@ -105,11 +106,15 @@
     <Content Include="App\durandal\widget.js" />
     <Content Include="App\viewmodels\History-How-We-Began.js" />
     <Content Include="App\viewmodels\History-Middle-Years.js" />
+    <Content Include="App\viewmodels\how-we-began.js" />
+    <Content Include="App\viewmodels\middle-years.js" />
     <Content Include="App\views\History-Middle-Years.html" />
     <Content Include="App\views\home.html" />
     <Content Include="App\viewmodels\home.js" />
     <Content Include="App\main.js" />
     <Content Include="App\views\History-How-We-Began.html" />
+    <Content Include="App\views\how-we-began.html" />
+    <Content Include="App\views\Middle-Years.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="Content\bootstrap-responsive.css" />

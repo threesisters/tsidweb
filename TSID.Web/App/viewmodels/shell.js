@@ -1,5 +1,5 @@
-﻿define(['durandal/plugins/router'],
-    function (router) {
+﻿define(['durandal/plugins/router', 'config'],
+    function (router, config) {
         var shell = {
             activate: activate,
             router: router
@@ -7,7 +7,7 @@
         return shell;
 
         function activate() {
-            router.mapAuto();
+            router.map(config.routes);
             collapseMenu();
             return router.activate('home');
             //system.getModuleId('viewmodels/home');
