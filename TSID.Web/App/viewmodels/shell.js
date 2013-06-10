@@ -2,19 +2,20 @@
     function (router, config) {
         var shell = {
             activate: activate,
-            router: router
+            router: router,
+            viewAttached: viewAttached
         };
         return shell;
 
         function activate() {
+            //router.mapNav('home', 'viewmodels/home', 'Home');
+            //router.mapNav('how-we-began', 'viewmodels/how-we-began', 'How We Began');
+            //router.mapNav('middle-years', 'viewmodels/middle-years', 'The Middle Years');
             router.map(config.routes);
-            collapseMenu();
             return router.activate('home');
-            //system.getModuleId('viewmodels/home');
         }
         
-        function collapseMenu() {
-            //$(document).ready(function () {
+        function viewAttached() {
             $('ul.dropdown-menu li a').each(function () {
                 $(this).on("click", function () {
                     $('li.dropdown').each(function () {
@@ -22,7 +23,6 @@
                     });
                 });
             });
-            //});
         }
 
 

@@ -2,12 +2,11 @@
     var routes = [{
         url: 'home',
         moduleId: 'viewmodels/home',
-        name: 'home',
-        caption: 'Home'
+        name: 'Home'
     }, {
         url: 'how-we-began',
         moduleId: 'viewmodels/how-we-began',
-        name: 'How-We-Began',
+        name: 'How We Began',
         visible: true
     }, {
         url: 'middle-years',
