@@ -1,11 +1,16 @@
 ﻿define(['durandal/app'],
     function (app) {
         var content = {
-            activate: activate
+            activate: activate,
+            getView: getView
         };
         return content;
 
         function activate() {
+        }
+
+        function getView() {
+            return 'views/projects/other';
         }
     }
 );
